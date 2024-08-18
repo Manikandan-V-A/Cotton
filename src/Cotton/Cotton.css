@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.TwoKg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+td {
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+nav {
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.89);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 10%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav2 a {
+    text-decoration: none;
+    font: small-caps bold 20px/1 sans-serif;
+    margin: 10px;
+    color: #000;
+}
+
+.nav2 a:hover {
+    border-bottom: 2px solid red;
+}
+
+nav h1 {
+    font: small-caps bold 30px/1 sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+nav h1 span {
+    font: small-caps bold 30px/1 sans-serif;
+    color: #ff0000b4;
+}
+
+.Main {
+    background-image: url(./back.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    text-align: center;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box h1 {
+    color: #000;
+}
+
+.box h6 {
+    color: #000;
+}
+
+.box input {
+    background-color: rgba(255, 255, 255, 0.61);
+    border: none;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.Name {
+    padding: 20px;
+}
+
+.table-main {
+    padding: 10px;
+    overflow: auto;
+}
+
+.table-box {
+    width: 1870px;
+}
+
+.download {
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .box {
+        width: 80%;
+    }
+}
