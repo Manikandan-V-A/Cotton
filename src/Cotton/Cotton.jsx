@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Cotton.css';
 import html2canvas from 'html2canvas';
+import { FaCircleArrowDown } from "react-icons/fa6";
 
 function Cotton() {
     const [name, setName] = useState('');
@@ -159,7 +160,7 @@ function Cotton() {
           
             </div>
 
-            <button className='submit-btn' onClick={handleGenerateRows}>Submit</button>
+            <button className='submit-btn' onClick={handleGenerateRows}>Submit <FaCircleArrowDown style={{color:'rgba(0, 0, 0, 0.59)', marginTop:'-2px', marginLeft:'5px'}} /></button>
             </div>
             </div>
             {rows.length > 0 && (
